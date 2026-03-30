@@ -1,0 +1,13 @@
+# 行番号を表示
+set linenumbers
+
+# カーソルの行と列を表示
+set constantshow
+
+# インデント：自動、スペースで、size 4
+set autoindent
+set tabstospaces
+set tabsize 4
+
+# マウス操作有効
+set mouse
