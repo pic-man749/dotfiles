@@ -126,7 +126,7 @@ export NVM_DIR="$HOME/.nvm"
 _DOTFILES_DIR="$(dirname "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")")"
 source "$_DOTFILES_DIR/git/git-prompt.sh"
 unset _DOTFILES_DIR
-PROMPT_COMMAND='PS1="\[\033[1;32m\]\u\[\033[00m\]:\[\033[1;34m\]\w\[\033[1;31m\]$(__git_ps1)\[\033[00m\] \$ "'
+PROMPT_COMMAND='PS1="\[\033[1;32m\]\u@\h\[\033[00m\]:\[\033[1;34m\]\w\[\033[1;31m\]$(__git_ps1)\[\033[00m\] \$ "'
 
 ## git操作
 
