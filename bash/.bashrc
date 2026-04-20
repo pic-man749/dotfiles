@@ -107,3 +107,7 @@ clean-branches() {
     echo "キャンセルしました"
   fi
 }
+
+## ターミナル操作
+### Tab補完時、大文字小文字を無視する
+bind 'set completion-ignore-case on'
